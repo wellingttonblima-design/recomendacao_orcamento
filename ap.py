@@ -134,7 +134,7 @@ Elabore uma análise técnica estruturada contendo:
                 {"role": "system", "content": prompt_sistema},
                 {"role": "user", "content": prompt_usuario}
             ],
-            temperature=0.2,
+            temperature=0.8,
             max_tokens=1200
         )
         return completion.choices[0].message.content
